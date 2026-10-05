@@ -41,7 +41,7 @@ uvx ruff check .             # run a tool in an ephemeral environment
 
 The candy's `plan:` asserts both binaries at their fixed paths and `uv --version`
 exiting cleanly. The `download:` step declares an explicit `uninstall:` list so
-`charly fleet del` removes only these two binaries, not the whole shared
+`charly deploy del` removes only these two binaries, not the whole shared
 `/usr/local/bin` directory.
 
 ## Layout
